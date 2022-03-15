@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    background-color: #2b2b30;
+    color: #ad92ff;
+}
+
+#GameLinks {
+    background-color: #2b2b30;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#GameArt {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#GameWidget {
+    width: 360px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #7f5af0;
+    color: white;
+    border: 10px;
+    box-shadow: 0px 5px 15px 2px black;
+    border-radius: 12px;
+    outline: none;
+}
+
+#GameWidget:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+
+#GameWidget:active {
+    box-shadow: 0px 0px 15px 2px black;
+    transform: translateY(5px);
+}
+
+#PageButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#OtherLinks {
+    width: 47%;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    background-color: #7f5af0;
+    color: white;
+    border: 10px;
+    box-shadow: 0px 5px 15px 2px black;
+    border-radius: 12px;
+    outline: none;
+}
+
+#OtherLinks.AllGames {
+    width: 95%;
+}
+
+#OtherLinks:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+
+#OtherLinks:active {
+    box-shadow: 0px 0px 15px 2px black;
+    transform: translateY(5px);
+}
+
+@media only screen and (max-width: 990px) {
+    #OtherLinks {
+        width: 95%;
+        margin: 10px;
+        margin-left: 30px;
+    }
+}
+a:link {
+    color: #ad92ff;
+}
+
+a:visited {
+    color: #7f5af0;
+}
+
+a:hover {
+    color: red;
+}
+
+#login:link, #login:visited, #login:hover {
+    color: #ffffff;
+}

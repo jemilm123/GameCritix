@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    background-color: #2b2b30;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+#ReviewWidgets {
+    background-color: #2b2b30;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#Review {
+    width: 680px;
+    height: 500px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #7f5af0;
+    color: white;
+    border: 10px;
+    box-shadow: 0px 5px 15px 2px black;
+    border-radius: 12px;
+    display: block;
+}
+
+#Review.OwnReview {
+    width: 80%;
+}
+
+#Username {
+    height: 15%;
+    overflow: hidden;
+}
+#Stars {
+    float: right;
+}
+
+#Content {
+    height: 70%;
+    overflow-y: scroll;
+}
+
+#Time {
+    height: 5%;
+}
